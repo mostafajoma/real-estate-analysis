@@ -50,12 +50,15 @@ I compared the average prices by neighborhood.
 
 1. Grouped the data by year and by neighborhood and calculate the average (mean) `sales_price_sqr_foot`.
 2. Visualized the mean `sales_price_sqr_foot` per year with the neighborhood as a dropdown selector. Used hvplot to obtain the interactive dropdown selector for the neighborhood.
+ 
+ ![avg-price-neighborhood.png](Images/avg-price-neighborhood.png)
 
 
 #### Top 10 Most Expensive Neighborhoods
 
 I figured out which neighborhoods are the most expensive. by calculating the mean sale price for each neighborhood and then sort the values to obtain the top 10 most expensive neighborhoods on average. Plotted the results as a bar chart.
 
+![top-10-expensive-neighborhoods.png](Images/top-10-expensive-neighborhoods.png)
 
 #### Parallel Coordinates and Parallel Categories Analysis
 
@@ -64,15 +67,20 @@ I used plotly express to create parallel coordinates and parallel categories vis
 Using the DataFrame of Average values per neighborhood (calculated above), created the following visualizations:
 
 1. Create a Parallel Coordinates Plot
+ 
+ ![parallel-coordinates.png](Images/parallel-coordinates.png)
 
 
 2. Create a Parallel Categories Plot
+
+  ![parallel-categories.png](Images/parallel-categories.png)
 
 
 #### Neighborhood Map
 
 I read in neighborhood location data and build an interactive map with the average prices per neighborhood. Used a scatter Mapbox object from plotly express to create the visualization.
 
+  ![neighborhood-map.png](Images/neighborhood-map.png)
 
 
 
@@ -82,6 +90,7 @@ I read in neighborhood location data and build an interactive map with the avera
 Created a new `dashboard.ipynb` for my dashboard code. Each function returns the plot figure in a format that Panel can use to plot the visualization.
 
 
+  ![dashboard-demo.gif](Images/dashboard-demo.gif)
 
 
 
