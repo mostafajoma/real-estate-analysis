@@ -1,4 +1,6 @@
-#Pythonic Monopoly
+# San Francisco Rental Properties Analysis
+![San Francisco Park Reading](Images/san-francisco-park-reading.jpg)
+*[San Francisco Park Reading by Juan Salamanca](https://www.pexels.com/photo/park-san-francisco-reading-61109/) | [Free License](https://www.pexels.com/photo-license/)*
 
 ## Background
 
@@ -14,7 +16,13 @@ The first step, built the dashboard to work out all of the calculations and visu
 #### Housing Units Per Year
 
 In rental_analysis.ipynb, I have calculated the number of housing units per year and visualize the results as a bar chart using the Pandas plot function.
+Default Bar Chart
 
+  ![unscaled-bar.png](Images/unscaled-bar.png)
+  
+Bar Chart with y-axis limits adjusted
+
+  ![scaled-bar.png](Images/scaled-bar.png)
 
 #### Average Gross Rent in San Francisco Per Year
 
@@ -22,6 +30,8 @@ I visualized the average gross rent per year to better understand the trends for
 
 1. Calculated the mean `gross` for each year.
 2. Visualized the mean gross rent per year as a line chart.
+
+  ![gross-rent.png](Images/gross-rent.png)
 
  
 
@@ -32,6 +42,7 @@ I determined the average sales price per year to better understand the sales pri
 1. Calculated the mean `gross` for each year.
 2. Visualized the mean gross rent per year as a line chart.
 
+  ![average-sales.png](Images/average-sales.png)
 
 #### Average Prices By Neighborhood
 
