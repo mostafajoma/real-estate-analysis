@@ -93,5 +93,12 @@ Created a new `dashboard.ipynb` for my dashboard code. Each function returns the
   ![dashboard-demo.gif](Images/dashboard-demo.gif)
 
 
+### Built with
+#### Python 
+#### pandas
+#### matplotlib
+#### hvplot
+#### plotly.express 
+
 
 
